@@ -12,7 +12,7 @@ function remove (event, fn) {
 }
 
 function dispatch (event, ...args) {
-  let eventListeners = listeners[event]
+  const eventListeners = listeners[event]
   if (eventListeners) {
     eventListeners.forEach(event => {
       event.apply(null, args)
