@@ -1,5 +1,5 @@
 {
-  "name": "es6-dispatcher",
+  "name": "migme-dispatcher",
   "version": "0.1.0",
   "description": "es6 event dispatcher",
   "main": "src/dispatcher.js",
