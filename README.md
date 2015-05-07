@@ -9,9 +9,22 @@ Event Dispatcher for ECMAScript 6
 ```js
 import Dispatcher from 'migme-dispatcher'
 
-Dispatcher.register('someevent', data => {
+function listener (data) {
   console.log('the event was dispatched')
-})
+}
 
+// Register an event
+Dispatcher.register('someevent', listener)
+
+// Dispatch an event
 Dispatcher.dispatch('someevent', {})
+
+// Get a list of the listeners
+const listeners = Dispatcher.getEventHandlers('someevent')
+
+// Remove event
+Dispatcher.remove('someevent', listener)
+
+// Clear all event listeners for an event
+Dispatcher.clearEventHandlers('someevent')
 ```
