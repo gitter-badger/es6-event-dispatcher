@@ -1,4 +1,6 @@
 # ES6 Event Dispatcher
+
+[![Join the chat at https://gitter.im/migme/es6-event-dispatcher](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/migme/es6-event-dispatcher?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Event Dispatcher for ECMAScript 6
 
 [![Build Status](https://img.shields.io/codeship/a46daac0-d6af-0132-05dd-4237fa3960fe.svg)](https://codeship.com/projects/78434)
