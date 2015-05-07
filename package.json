@@ -1,0 +1,33 @@
+{
+  "name": "es6-dispatcher",
+  "version": "0.1.0",
+  "description": "es6 event dispatcher",
+  "main": "src/dispatcher.js",
+  "scripts": {
+    "test": "standard && istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec --compilers js:babel/register && cat ./coverage/lcov.info | ./node_modules/codacy-coverage/bin/codacy-coverage.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/migme/es6-dispatcher.git"
+  },
+  "keywords": [
+    "es6",
+    "event",
+    "dispatcher"
+  ],
+  "author": "Migme (mig.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/migme/es6-dispatcher/issues"
+  },
+  "homepage": "https://github.com/migme/es6-dispatcher",
+  "devDependencies": {
+    "babel": "^5.2.16",
+    "chai": "^2.3.0",
+    "codacy-coverage": "^1.0.4",
+    "istanbul-harmony": "^0.3.12",
+    "mocha": "^2.2.4",
+    "mocha-lcov-reporter": "0.0.2",
+    "standard": "^3.7.3"
+  }
+}
